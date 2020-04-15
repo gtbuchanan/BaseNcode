@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Encode data in Base-N (e.g. base32, base64). F# and C# friendly.</Description>
+    <PackageTags>base32 base32hex base64 base64url encode encoding rfc4648 f# fsharp</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Internals.fs" />
+    <Compile Include="Base32.fsi" />
+    <Compile Include="Base32.fs" />
+    <Compile Include="Base32Hex.fsi" />
+    <Compile Include="Base32Hex.fs" />
+    <Compile Include="Base64.fsi" />
+    <Compile Include="Base64.fs" />
+    <Compile Include="Base64Url.fsi" />
+    <Compile Include="Base64Url.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="FSharp.Core" Version="4.7.1" />
+  </ItemGroup>
+
+</Project>
