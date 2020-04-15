@@ -4,6 +4,10 @@
 
 A .NET library to encode data in Base-N. F# and C# friendly.
 
+## Disclaimer
+
+This library was created as an F# learning exercise. For a more performance-focused implementation, you may want to consider [SimpleBase](https://github.com/ssg/SimpleBase).
+
 ## Supported Encodings
 
 * [base32](https://tools.ietf.org/html/rfc4648#section-6): `Base32` module
