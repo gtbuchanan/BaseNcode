@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Description>Encode data in Base-N (e.g. base32, base64). F# and C# friendly.</Description>
     <PackageTags>base32 base32hex base64 base64url encode encoding rfc4648 f# fsharp</PackageTags>
   </PropertyGroup>
