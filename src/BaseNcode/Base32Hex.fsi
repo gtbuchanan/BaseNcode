@@ -25,7 +25,7 @@ module Base32Hex =
   /// <summary>
   ///   Decodes a base32hex-encoded string into a sequence of bytes.
   /// </summary>
-  /// <param name="str">The base32hex string to decode.</param>
+  /// <param name="s">The base32hex string to decode.</param>
   /// <returns>The decoded sequence of bytes if successful, otherwise a list of errors.</returns>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-7">
   ///   RFC 4648 Section 7: Base 32 Encoding with Extended Hex Alphabet
@@ -51,7 +51,7 @@ type Base32Hex =
   ///   the specification referring to RFC 4648 explicitly states otherwise.
   /// </param>
   /// <returns>The sequence of bytes as a base32hex-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-7">
   ///   RFC 4648 Section 7: Base 32 Encoding with Extended Hex Alphabet
   /// </seealso>
@@ -62,7 +62,7 @@ type Base32Hex =
   /// </summary>
   /// <param name="bytes">The sequence of bytes.</param>
   /// <returns>The sequence of bytes as a base32hex-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-7">
   ///   RFC 4648 Section 7: Base 32 Encoding with Extended Hex Alphabet
   /// </seealso>
@@ -71,10 +71,10 @@ type Base32Hex =
   /// <summary>
   ///   Decodes a base32hex-encoded string into a sequence of bytes.
   /// </summary>
-  /// <param name="str">The base32hex string to decode.</param>
+  /// <param name="s">The base32hex string to decode.</param>
   /// <returns>The decoded sequence of bytes.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="s" /> is <c>null</c>.</exception>
-  /// <exception cref="ArgumentException"><paramref cref="s" /> contains invalid characters.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="s" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentException"><paramref name="s" /> contains invalid characters.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-7">
   ///   RFC 4648 Section 7: Base 32 Encoding with Extended Hex Alphabet
   /// </seealso>

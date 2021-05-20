@@ -59,10 +59,10 @@ type Base64 =
   ///   the specification referring to RFC 4648 explicitly states otherwise.
   /// </param>
   /// <returns>The sequence of bytes as a base64-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-4">
   ///   RFC 4648 Section 4: Base 64 Encoding
-  /// </seealso> 
+  /// </seealso>
   static member Encode : bytes:seq<byte> * pad:bool -> string
 
   /// <summary>
@@ -70,10 +70,10 @@ type Base64 =
   /// </summary>
   /// <param name="bytes">The sequence of bytes.</param>
   /// <returns>The sequence of bytes as a base64-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-4">
   ///   RFC 4648 Section 4: Base 64 Encoding
-  /// </seealso> 
+  /// </seealso>
   static member Encode : bytes:seq<byte> -> string
 
   /// <summary>
@@ -81,8 +81,8 @@ type Base64 =
   /// </summary>
   /// <param name="s">The base64 string to decode.</param>
   /// <returns>The decoded sequence of bytes if successful, otherwise the error.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="s" /> is <c>null</c>.</exception>
-  /// <exception cref="ArgumentException"><paramref cref="s" /> is in an invalid format.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="s" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentException"><paramref name="s" /> is in an invalid format.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-4">
   ///   RFC 4648 Section 4: Base 64 Encoding
   /// </seealso>
