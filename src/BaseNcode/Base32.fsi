@@ -73,7 +73,7 @@ type Base32 =
   ///   the specification referring to RFC 4648 explicitly states otherwise.
   /// </param>
   /// <returns>The sequence of bytes as a base32-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-6">
   ///   RFC 4648 Section 6: Base 32 Encoding
   /// </seealso>
@@ -84,7 +84,7 @@ type Base32 =
   /// </summary>
   /// <param name="bytes">The sequence of bytes.</param>
   /// <returns>The sequence of bytes as a base32-encoded string.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="bytes" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="bytes" /> is <c>null</c>.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-6">
   ///   RFC 4648 Section 6: Base 32 Encoding
   /// </seealso>
@@ -95,8 +95,8 @@ type Base32 =
   /// </summary>
   /// <param name="s">The base32 string to decode.</param>
   /// <returns>The decoded sequence of bytes.</returns>
-  /// <exception cref="ArgumentNullException><paramref cref="s" /> is <c>null</c>.</exception>
-  /// <exception cref="ArgumentException"><paramref cref="s" /> contains invalid characters.</exception>
+  /// <exception cref="ArgumentNullException"><paramref name="s" /> is <c>null</c>.</exception>
+  /// <exception cref="ArgumentException"><paramref name="s" /> contains invalid characters.</exception>
   /// <seealso href="https://tools.ietf.org/html/rfc4648#section-6">
   ///   RFC 4648 Section 6: Base 32 Encoding
   /// </seealso>
