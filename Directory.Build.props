@@ -14,7 +14,7 @@
     <WarningsAsErrors />
     <NoWarn>NU5105</NoWarn>
     <Nullable>enable</Nullable>
-    <LangVersion>5.0</LangVersion>
+    <LangVersion>latest</LangVersion>
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
   </PropertyGroup>
 

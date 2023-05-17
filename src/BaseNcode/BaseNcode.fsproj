@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
     <Description>Encode data in Base-N (e.g. base32, base64). F# and C# friendly.</Description>
     <PackageTags>base32 base32hex base64 base64url encode encoding rfc4648 f# fsharp</PackageTags>
   </PropertyGroup>
@@ -17,10 +17,6 @@
     <Compile Include="Base64.fs" />
     <Compile Include="Base64Url.fsi" />
     <Compile Include="Base64Url.fs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="FSharp.Core" Version="7.0.200" />
   </ItemGroup>
 
 </Project>

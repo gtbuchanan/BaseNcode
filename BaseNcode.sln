@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29728.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "BaseNcode", "src\BaseNcode\BaseNcode.fsproj", "{FC099957-5BA3-43C0-977F-8E37B9D12D62}"
 EndProject
@@ -23,10 +23,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		build.fsx = build.fsx
+		build.cmd = build.cmd
 		build.ps1 = build.ps1
+		build.sh = build.sh
 		Directory.Build.props = Directory.Build.props
-		global.json = global.json
+		Directory.Packages.props = Directory.Packages.props
 		LICENSE.txt = LICENSE.txt
 		README.md = README.md
 		version.json = version.json
@@ -44,6 +45,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".dependabot", ".dependabot"
 		.dependabot\config.yml = .dependabot\config.yml
 	EndProjectSection
 EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Build", "build\Build.fsproj", "{7FF0C880-57C0-4EFE-AF5D-46DAD424B183}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{8F105137-F95D-4DC0-AC55-BD81C16EE49B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +63,8 @@ Global
 		{13763728-7DFE-4D78-A932-8F848497B294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13763728-7DFE-4D78-A932-8F848497B294}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13763728-7DFE-4D78-A932-8F848497B294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FF0C880-57C0-4EFE-AF5D-46DAD424B183}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FF0C880-57C0-4EFE-AF5D-46DAD424B183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +75,7 @@ Global
 		{0F685E4F-FD16-43C7-A523-11C8CCCDD1F3} = {FC3B5E91-634B-4E16-8A13-9AEE595230EC}
 		{BA216A8B-D91B-429B-B85F-E7805731C260} = {0F685E4F-FD16-43C7-A523-11C8CCCDD1F3}
 		{7717132B-61B9-47EA-925D-4F6B22523F03} = {FC3B5E91-634B-4E16-8A13-9AEE595230EC}
+		{7FF0C880-57C0-4EFE-AF5D-46DAD424B183} = {8F105137-F95D-4DC0-AC55-BD81C16EE49B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF712D11-B116-47D5-A785-A458E511C995}
